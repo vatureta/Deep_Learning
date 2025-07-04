@@ -8,7 +8,7 @@ This repository contains the code and supporting materials for the project **“
 
 ## Contents
 
-- **`ImageDataAccess.ipynb`** — Jupyter notebook containing the code implementation, model training, and evaluation procedures.
+- **`CNN_Bias_Correction.ipynb`** — Jupyter notebook containing the code implementation, model training, and evaluation procedures.
 - **`Deep Learning in Post Processing.pdf`** — Full project report describing methodology, background, experiments, and findings.
 
 ## Project Overview
@@ -31,7 +31,7 @@ This repository is intended to accompany the write-up for transparency and docum
 
 You can explore the following files:
 
-- **`ImageDataAccess.ipynb`** — Shows the end-to-end deep learning post-processing pipeline on ensemble weather forecasts, including architecture design, training loops, and evaluation steps.
+- **`CNN_Bias_Correction.ipynb`** — Shows the end-to-end deep learning post-processing pipeline on ensemble weather forecasts, including architecture design, training loops, and evaluation steps.
 - **`Deep Learning in Post Processing.pdf`** — Provides detailed background, methodology, results, and discussion.
 
 If you wish to apply these methods to your own data, you can adapt the code by replacing the data-loading sections in the notebook with your own ensemble forecast data.
