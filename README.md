@@ -2,6 +2,8 @@
 
 This repository contains the code and supporting materials for the project **“Deep Learning for Bias Correction of Ensemble Weather Forecast Post-Processing”**, which explores the use of neural network models to improve the calibration and skill of ensemble-based weather forecasts.
 
+This study uses a batch-based workflow on Google Colab to process the large datasets using GPU acceleration. Model training and inferenece are divided into sequential batch runs, chunks are executed concurrently and results aggregated across runs for evaluation. This approach allows for scaling the experiments efficiently despite compute limitations.
+
 > **Note:** The dataset used in this project is not publicly available and cannot be shared. Please refer to the accompanying write-up for a detailed discussion of the data, methods, and results.
 
 ---
